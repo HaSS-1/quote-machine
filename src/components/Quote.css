@@ -1,0 +1,82 @@
+.container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsla(212, 76%, 44%, 1);
+
+    background: linear-gradient(180deg, hsla(212, 76%, 44%, 1) 0%, hsla(0, 0%, 35%, 1) 84%);
+
+    background: -moz-linear-gradient(180deg, hsla(212, 76%, 44%, 1) 0%, hsla(0, 0%, 35%, 1) 84%);
+
+    background: -webkit-linear-gradient(268deg, hsla(212, 76%, 44%, 1) 0%, hsla(0, 0%, 35%, 1) 84%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#1b6bc7", endColorstr="#4c4c4c", GradientType=1);
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    width: 60%;
+    border: 1px solid white;
+}
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.author {
+    font-size: 24px;
+    color: white;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin: 40px 0 40px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+button {
+    font-size: 18px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.tooltip {
+    border: 1px solid white;
+    background-color: rgba(240, 247, 167, 0.645);
+    padding: 5px;
+}
+
+.new-quote {
+    margin-top: 20px;
+
+}
+
+.new-quote button {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.new-quote button:hover {
+    transform: scale(1.05) translateY(5px);
+    transition: all 0.3s ease-in-out;
+}
