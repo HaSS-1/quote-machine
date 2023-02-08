@@ -1,9 +1,123 @@
 .container {
-    height: 70vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    min-height: 72vh;
+    background: hsla(212, 76%, 44%, 1);
+
+    background: linear-gradient(180deg, hsla(212, 76%, 44%, 1) 0%, hsla(0, 0%, 35%, 1) 84%);
+
+    background: -moz-linear-gradient(180deg, hsla(212, 76%, 44%, 1) 0%, hsla(0, 0%, 35%, 1) 84%);
+
+    background: -webkit-linear-gradient(268deg, hsla(212, 76%, 44%, 1) 0%, hsla(0, 0%, 35%, 1) 84%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#1b6bc7", endColorstr="#4c4c4c", GradientType=1);
+}
+
+.quote-container {
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(28, 28, 28);
+    max-width: 600px;
+
+}
+
+.quote {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 2rem 0.5rem;
+}
+
+.author {
+    font-size: 1rem;
+    text-align: right;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+
+}
+
+.buttons button {
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #004ba8;
+    box-shadow: 2px 2px 10px rgb(28, 28, 28);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.2s ease-in-out;
+}
+
+.copied .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.new-quote {
+    margin-top: 1rem;
+}
+
+.new-quote button {
+    padding: 1rem 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #004ba8;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgb(28, 28, 28);
+    transition: all 0.3s ease-in-out;
+}
+
+.new-quote button:hover {
+    background-color: #3e78b2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+
+/* .container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 50%;
     background: hsla(212, 76%, 44%, 1);
 
     background: linear-gradient(180deg, hsla(212, 76%, 44%, 1) 0%, hsla(0, 0%, 35%, 1) 84%);
@@ -20,37 +134,38 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
     padding: 15px;
-    width: 60%;
+    height: 70vh;
+    width: auto;
     border: 1px solid white;
 }
 
 .quote {
-    font-size: 32px;
+    font-size: 1.5rem;
     font-style: italic;
     color: white;
-    text-align: center;
 }
 
 .author {
-    font-size: 24px;
+    font-size: 1rem;
     color: white;
-    text-align: right;
+    align-self: flex-end;
     margin-top: 20px;
+
 }
 
 .buttons {
     margin: 40px 0 40px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 300px;
 }
 
 button {
     font-size: 18px;
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 15px 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -67,7 +182,7 @@ button:hover {
 }
 
 .new-quote {
-    margin-top: 20px;
+    margin: 20px;
 
 }
 
@@ -79,4 +194,4 @@ button:hover {
 .new-quote button:hover {
     transform: scale(1.05) translateY(5px);
     transition: all 0.3s ease-in-out;
-}
+} */

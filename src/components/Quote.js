@@ -10,20 +10,25 @@ library.add(faTwitter, faLinkedin, faGithub);
 const Quote = () => {
     const [quote, setQuote] = useState('');
     const [author, setAuthor] = useState('');
-    const [backgroundColor, setBackgroundColor] = useState('#00bfff');
+    const [color, setColor] = useState('#fff');
     const [copied, setCopied] = useState(false);
 
-    const randomColor = () => {
-        const colors = ['#07070a', '#24272b', '#4a525a', '#004ba8', '#3e78b2'];
-        return colors[Math.floor(Math.random() * colors.length)];
+    const getRandomColor = () => {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 9)];
+        }
+        return color;
     };
+
 
     const getQuote = useCallback(() => {
         axios.get('https://api.quotable.io/random')
             .then(response => {
                 setQuote(response.data.content);
                 setAuthor(response.data.author);
-                setBackgroundColor(randomColor());
+                setColor(getRandomColor());;
             })
             .catch(error => console.log(error));
     }, []);
@@ -47,7 +52,7 @@ const Quote = () => {
 
     return (
         <div className='container'>
-            <div className="quote-container" style={{ backgroundColor: backgroundColor }}>
+            <div className="quote-container" style={{ backgroundColor: color }}>
                 <h1 className="quote">"{quote}"</h1>
                 <h5 className="author">- {author}</h5>
                 <div className="buttons">
@@ -62,7 +67,7 @@ const Quote = () => {
                 )}
             </div>
             <div className='new-quote'>
-                <button onClick={getQuote} style={{ backgroundColor: backgroundColor }}>New Quote</button>
+                <button onClick={getQuote} style={{ backgroundColor: color }}>New Quote</button>
             </div>
         </div>
     );
