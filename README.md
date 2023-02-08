@@ -47,7 +47,7 @@ You may also see any lint errors in the console.
 1. **Clone the repository.**
 
 ```bash
-git clone https://github.com/[username]/quote-generator.git
+git clone https://github.com/HaSS-1/quote-machine.git
 ```
 2. **Change into the project directory.**
 
