@@ -27,21 +27,19 @@ You may also see any lint errors in the console.
 
 **wide screen**
 
-<div align="right">**wide screen**</div>
+<div align="center"><h3>wide screen</h3></div>
 
 <img src="/src/images/screen.PNG?raw=true" width="800">
 
 
-<div align="right">**Medium screen**</div>
+<div align="center"><h3>Medium screen</h3></div>
 
 <img src="/src/images/tablette_screen.PNG?raw=true" width="300">
 
 
-<div align="right">**Mobile screen**</div>
+<div align="center"><h3>Mobile screen</h3></div>
 
 <img src="/src/images/mobile.PNG?raw=true" width="150">
-
-![mobile preview](src/images/mobile.PNG)
 
 
 ### Getting Started :
