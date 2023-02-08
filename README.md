@@ -1,8 +1,8 @@
-# Quote Generator
+# Quote Generator :
 
 A simple React app that generates random quotes and allows the user to share them on Twitter or copy them to their clipboard.
 
-## Features
+## Features :
 
 * In the project directory, you can run:
 * Retrieves random quotes from the Quotable API.
@@ -11,7 +11,7 @@ A simple React app that generates random quotes and allows the user to share the
 * Allows the user to copy quotes to their clipboard.
 
 
-### Built with
+### Built with :
 
 * <a href="https://reactjs.org/" target="_blank">React</a>: a JavaScript library for building user interfaces.
 * <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>: a font and icon toolkit.
@@ -23,12 +23,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### Screenshots
+### Screenshot :
 
 <img src="/src/images/screen.PNG?raw=true" width="800">
 
 
-### Getting Started
+### Getting Started :
 
 **These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.**
 
@@ -42,7 +42,7 @@ You may also see any lint errors in the console.
 
 
 
-## Installation
+## Installation :
 
 1. **Clone the repository.**
 
@@ -71,7 +71,7 @@ The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 
-### Credits
+### Credits :
 
 API: <a href="https://quotable.io/" target="_blank">quotable.io</a>
 
