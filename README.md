@@ -28,18 +28,20 @@ You may also see any lint errors in the console.
 **wide screen**
 
 <div align="center"><h3>wide screen</h3></div>
+<div align="center"><h3><img src="/src/images/screen.PNG?raw=true" width="800"></h3></div>
 
-<img src="/src/images/screen.PNG?raw=true" width="800">
+
 
 
 <div align="center"><h3>Medium screen</h3></div>
+<div align="center"><h3><img src="/src/images/tablette_screen.PNG?raw=true" width="300"></h3></div>
 
-<img src="/src/images/tablette_screen.PNG?raw=true" width="300">
 
 
 <div align="center"><h3>Mobile screen</h3></div>
+<div align="center"><h3><img src="/src/images/mobile.PNG?raw=true" width="150"></h3></div>
 
-<img src="/src/images/mobile.PNG?raw=true" width="150">
+
 
 
 ### Getting Started :
