@@ -24,8 +24,14 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### Screenshot :
-
+[center]**wide screen**[/center]
 <img src="/src/images/screen.PNG?raw=true" width="800">
+
+[center]**Medium screen**[/center]
+<img src="/src/images/tablette_screen.PNG?raw=true" width="600">
+
+[center]**Mobile screen**[/center]
+<img src="/src/images/mobile_screen.PNG?raw=true" width="400">
 
 
 ### Getting Started :
