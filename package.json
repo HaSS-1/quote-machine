@@ -2,7 +2,7 @@
   "name": "randomquots",
   "version": "0.1.0",
   "author": "Hassan TAJIRI <tajiri.hassan@gmail.com",
-  "hommepage": "http://hass-1.github.io/quote-machine",
+  "hommepage": "http://hass-1.github.io/",
   "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
