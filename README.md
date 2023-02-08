@@ -25,7 +25,7 @@ You may also see any lint errors in the console.
 
 ### Screenshots
 
-<img src="./components/images/screen.png" width="800">
+<img src="components/images/screen.png" width="800">
 
 
 ### Getting Started
