@@ -10,13 +10,13 @@ const Footer = () => {
     return (
         <footer>
             <div className="social-links">
-                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/HassanTAJIRI1" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faTwitter} />
                 </a>
-                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/hassan-tajiri" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/HaSS-1" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
             </div>
